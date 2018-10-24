@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+}
+
+a {
+  color: rebeccapurple;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+

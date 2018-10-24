@@ -1,0 +1,18 @@
+<%- include('../partials/header') %>
+
+<h1>Update Piroshkis</h1>
+
+<form action="/piroshkis/<%= id %>?_method=PUT" method="POST">
+    <label>Piroshki Name</label>
+    <input type="text" name="piroshkiName"><br>
+    <br>
+    <label>Piroshki Filling</label>
+    <input type="text" name="piroshkiFilling"><br>
+    <br>
+    <label>Piroshki Size</label>
+    <input type="text" name="piroshkiSize"><br>
+    <br>
+    <input type="submit" value="Update Piroshki">
+</form>
+
+<%- include('../partials/footer') %>
